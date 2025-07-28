@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>シンプルなToDoリスト</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>ToDoリスト</h1>
+
+        <div class="input-area">
+            <select id="summarySelect"></select>
+            <input type="text" id="newSummaryInput" placeholder="新しい概要を追加...">
+            <button id="addSummaryBtn">概要追加</button>
+        </div>
+        <div class="input-area">
+            <input type="text" id="taskInput" placeholder="新しいタスクを入力...">
+            <button id="addTaskBtn">追加</button>
+        </div>
+
+        <div id="listsArea">
+            <!-- 概要ごとにリストを表示 -->
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
